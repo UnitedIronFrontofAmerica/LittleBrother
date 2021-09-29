@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="splash.SplashActivity">
+
+    <ImageView
+        android:id="@+id/red_banner_splash"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/red_banner_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Little Brother"
+        android:textSize="30sp"
+        android:textFontWeight="800"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/red_banner_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/rev_splash_circle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/splash_circle"
+        app:layout_constraintBottom_toTopOf="@+id/green_banner_splash"
+        app:layout_constraintTop_toBottomOf="@+id/red_banner_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/ic_splash_eye"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo_btn"
+        app:layout_constraintTop_toBottomOf="@id/red_banner_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/green_banner_splash"
+        tools:ignore="ContentDescription"/>
+    
+    <ImageView
+        android:id="@+id/green_banner_splash"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/green_banner_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Civil Servant Surveillance"
+        android:textSize="25sp"
+        android:textFontWeight="800"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/green_banner_splash"
+        tools:ignore="HardcodedText" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

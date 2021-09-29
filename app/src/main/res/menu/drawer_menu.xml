@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/scannerItem"
+        android:icon="@drawable/ic_scanner"
+        android:title="Police Scanners"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/dossierItem"
+        android:icon="@drawable/ic_add_person"
+        android:title="Cop Dossier"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/profileItem"
+        android:title="Profile"
+        android:icon="@drawable/ic_add_person"
+        tools:ignore="HardcodedText"/>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/nav_home_btn"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Home"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/nav_map_btn"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/nav_report_btn"
+        android:icon="@drawable/ic_baseline_report_24"
+        android:title="Report"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/nav_scanner_btn"
+        android:icon="@drawable/ic_scanner"
+        android:title="Scanners"
+        tools:ignore="HardcodedText"/>
+
+    <item
+        android:id="@+id/nav_dossier_btn"
+        android:icon="@drawable/ic_add_person"
+        android:title="Dossier"
+        tools:ignore="HardcodedText"/>
+
+</menu>

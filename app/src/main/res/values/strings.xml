@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Little Brother - Cop Watch</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_report">Report</string>
+    <string name="app_name_short">Little Brother</string>
+    <string name="scanners">Scanners</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="google_maps_api_key">AIzaSyBuDklaJfByzNsuDQ6gGUM78t7_Ii6hPo4</string>
+</resources>
