@@ -45,7 +45,7 @@ class MapFragment : Fragment() , OnMapReadyCallback {
                 .position(atlanta)
                 .title("Marker in Atlanta")
         )
-        map?.moveCamera(CameraUpdateFactory.newLatLng(atlanta))
+        map?.moveCamera(CameraUpdateFactory.newLatLngZoom(atlanta, 10F))
 
     }
 
