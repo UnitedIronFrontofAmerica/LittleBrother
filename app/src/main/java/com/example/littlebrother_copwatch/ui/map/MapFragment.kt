@@ -9,6 +9,7 @@ import com.example.littlebrother_copwatch.R
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.android.synthetic.main.fragment_map.*
@@ -23,7 +24,6 @@ class MapFragment : Fragment() , OnMapReadyCallback {
 
         map_view.onCreate(savedInstanceState)
         map_view.onResume()
-
         map_view.getMapAsync(this)
     }
 
@@ -44,6 +44,8 @@ class MapFragment : Fragment() , OnMapReadyCallback {
             MarkerOptions()
                 .position(atlanta)
                 .title("Marker in Atlanta")
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.atl_skyline))
+
         )
         map?.moveCamera(CameraUpdateFactory.newLatLngZoom(atlanta, 10F))
 
