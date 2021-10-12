@@ -39,12 +39,12 @@ class MapFragment : Fragment() , OnMapReadyCallback {
         map?.let{
             googleMap = it
         }
-        val atlanta = LatLng(33.753, -84.386)
+        val atlanta = LatLng(33.778, -84.388)
         map?.addMarker(
             MarkerOptions()
                 .position(atlanta)
                 .title("Marker in Atlanta")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.atl_skyline))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.city_marker))
 
         )
         map?.moveCamera(CameraUpdateFactory.newLatLngZoom(atlanta, 10F))
